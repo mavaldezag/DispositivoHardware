@@ -1,0 +1,131 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html{
+    font-size: 62.5%;
+    color: white;
+}
+
+header{
+    position: relative;
+    
+}
+header h1{
+    margin: 5px;
+    color:yellow;
+    position: absolute;
+    font-size: 3.5rem;
+    text-align: center;
+}
+header img{
+    width: 100%;
+}
+
+header nav ul{
+    position: absolute;
+    top: 55%;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    list-style: none;
+    color: yellow; 
+}
+
+header nav ul li{
+    padding: 1rem 1.5rem;
+}
+
+header nav ul li a{
+    font-size: 2.5rem;
+    color:yellow ;
+}
+
+nav ul li a:hover{
+    font-size: 2.7rem;
+    color: white;
+}
+
+main{
+    background-color: #2A1035;
+}
+
+.imagen1{
+    /*HAcer un Div en el main y poner el nombre de la clase*/
+    max-width: 3000;
+    /*display: block;*/
+    margin: 0 auto;
+}
+#Principal{
+    max-width: 1024px;
+    text-align: justify;
+}
+
+#Principal h1{
+    font-size: 2.7rem;
+    
+}
+
+#Principal h2{
+    font-size: 2.2rem;
+    margin-top: 25px;
+}
+#Principal p{
+    font-size: 1.5rem;
+}
+
+#Caracteristicas{
+    max-width: 1024px;
+    padding: 0 auto;
+    margin-top: 25px;
+}
+
+#Caracteristicas h1{
+    font-size: 2.7rem;
+}
+
+#Caracteristicas p{
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+#Beneficios{
+    max-width: 1024px;
+    padding: 0 auto;
+    margin-top: 25px;
+}
+
+#Beneficios h1{
+    font-size: 2.7rem;
+}
+#Beneficios ul{
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+#Masinformacion{
+    max-width: 1024px;
+    padding: 0 auto;
+    margin-top: 25px;
+}
+
+#Masinformacion h1{
+    font-size: 2.7rem;
+}
+
+#Masinformacion p{
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+footer{
+    margin-top: 3px;
+    background-color: #2A1035;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
